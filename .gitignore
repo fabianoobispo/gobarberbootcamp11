@@ -7,11 +7,11 @@ backend/temp/
 backend/tmp/*
 backend/!tmp/.gitkeep
 
-.idea/
-.vscode/
-node_modules/
-build/
-temp/
+frontend/.idea/
+frontend/.vscode/
+frontend/node_modules/
+frontend/build/
+frontend/temp/
 
-tmp/*
-!tmp/.gitkeep
+frontend/tmp/*
+frontend/!tmp/.gitkeep

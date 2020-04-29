@@ -1,7 +1,19 @@
 import React from 'react';
+import GlobalStyle from './styles/global';
 
-function App() {
-  return <h1>test</h1>;
-}
+import SignIn from './pages/SignIn';
+// import SignUp from './pages/SignUP';
+
+import { AuthProvider } from './hooks/AuthContext';
+
+const App: React.FC = () => (
+  <>
+    <AuthProvider>
+      <SignIn />
+    </AuthProvider>
+
+    <GlobalStyle />
+  </>
+);
 
 export default App;
