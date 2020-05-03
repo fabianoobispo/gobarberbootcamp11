@@ -1,7 +1,7 @@
 
 ### :rocket: Sobre a aplicação
 
-Esta é uma aplicação construída para uma transportadora fictícia, a FastFeet, usando Node, React, React Native.
+Esta é uma aplicação construída em typescript para uma barbearia  fictícia, usando Node, React, React Native.
 
 - **API:** NodeJs usando banco de dados PostgreSQL. Com autenticação JWt 
 - **WEB:** React yup para verificação de dados, e compoonents estilizados.
