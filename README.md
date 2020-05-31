@@ -29,8 +29,7 @@ yarn
 
 ### Subindo os bancos postgres e redis via docker 
 ```sh
-docker run --name gobarber_postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
-
+docker run --name gobarber -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 
 ```
  
@@ -44,7 +43,7 @@ yarn sequelize db:migrate
 
 ### Subindo a aplicação
 ```sh
-yarn dev:server
+yarn typeorm migration:run
 ```
 
 
