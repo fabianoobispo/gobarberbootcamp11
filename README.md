@@ -37,13 +37,13 @@ docker run --name gobarber -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 ### Rodando migração e criando usuário Admin
 Antes da migrate temos que criar um databese com o nome gostack_gobarber dentro do banco postgres
 ```sh
-yarn sequelize db:migrate
+yarn typeorm migration:run
 
 ```
 
 ### Subindo a aplicação
 ```sh
-yarn typeorm migration:run
+
 ```
 
 
