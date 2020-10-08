@@ -27,4 +27,4 @@ class UserToken {
   @UpdateDateColumn()
   updated_at: Date;
 }
-export default Users;
+export default UserToken;
